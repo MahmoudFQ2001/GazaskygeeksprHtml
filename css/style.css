@@ -1,0 +1,560 @@
+
+/* Start General Css */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+/* End General Css */
+
+/* Start head CSS */
+.head-sec {
+    background-color: #091242;
+    padding: 30px 0;
+}
+
+.head-sec .detals {
+    float: right;
+    display: flex;
+}
+
+.head-sec .detals .det1 {
+    display: flex;
+    margin-left: 15px;
+
+}
+
+.head-sec .detals .det1 .log {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #111c55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.head-sec .detals .det1 .log {
+    color: #d9a12c;
+}
+
+.head-sec .detals .det1 P {
+    color: #c2c3c9;
+    font-size: 12px;
+}
+
+.head-sec .logo {
+    float: left;
+    margin-top: 5px;
+}
+
+.head-sec .logo a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+/* end head CSS */
+
+/* Start header and  Navbar CSS */
+.header {
+    height: 720px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.header .navbar-div {
+    background-color: rgba(0, 0, 0, 0.1);
+
+
+}
+
+.header .navbar-div .pages {
+    float: right;
+}
+
+.header .navbar-div .pages ul {
+    list-style-type: none;
+}
+
+.header .navbar-div .pages ul li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+
+}
+
+.header .navbar-div .pages ul li i {
+    color: #fff;
+}
+
+.header .navbar-div .links {
+    float: left;
+}
+
+.header .navbar-div .links ul {
+    list-style-type: none;
+}
+
+.header .navbar-div .links ul li {
+    display: inline-block;
+    margin: 4px 20px 4px 0px;
+    padding: 15px 0;
+    color: #387fb4;
+}
+
+.header .navbar-div .links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.header .navbar-div .links ul li a:hover {
+    color: #000;
+}
+
+.header .content h6 {
+    margin-top: 170px;
+    color: #fff;
+    background-color: rgba(21, 19, 40, 0.4);
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    border-left: 3px solid #ffd859;
+}
+
+.header .content h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header .content p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+
+.header .content a {
+    background: linear-gradient(to right, #ffc036, #e8ce95);
+    text-decoration: none;
+    color: black;
+    padding: 12px 20px 12px 20px;
+}
+
+.header .content a:hover {
+    background: linear-gradient(to right, #e8ce95, #ffc036);
+    color: white;
+
+}
+
+@media (min-width: 1199px) {
+
+    .header .content h1 {
+        width: 368px;
+    }
+
+    .header .content p {
+        width: 368px;
+    }
+}
+
+/* END header and Navbar CSS */
+
+/* start service */
+
+
+.service-sec .service-con{
+    margin-top: 100px;
+    display: flex;
+}
+.service-sec .service-con .content{
+    width: 20%;
+    margin-right: 20px;
+}
+.service-sec .service-con .content p{
+    background-color: #f3f3f3;
+    padding: 3px 5px 3px 7px;
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-left: 3px solid #ffd859;
+    
+}
+.service-sec .service-con .content h2{
+    color: #000;
+    font-size: 23px;
+}
+.service-sec .service-con .service-im{
+    width: 40%;
+}
+
+.service-sec .service-con .service-im .boxes{
+    display: flex;
+    margin-bottom: 50px;
+}
+.service-sec .service-con .service-im .boxes .box1{ 
+    width: 25%;
+    
+} 
+.service-sec .service-con .service-im .boxes .liner{ 
+width: 5%;
+border-left: 1px solid #646567;
+} 
+.service-sec .service-con .service-im .boxes .box2{ 
+    width: 70%;
+} 
+.service-sec .service-con .service-im .boxes .box2 a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+    color: #000;
+}
+.service-sec .service-con .service-im .boxes .box2 p{
+    font-size: 13px;
+    margin-top: 10px;
+    color: #707590;
+}
+/* end service */
+
+
+/* start across Css   */
+.across-sec {
+    background: linear-gradient(to right, #d9a12c, #ffd88c);
+    width: 100%;
+    height: 250px;
+    position: relative;
+    margin-top: 340px;
+    
+}
+.across-sec .across-sec-det{
+position: absolute;
+margin-top: -280px;
+width: 100%;
+}
+
+.across-sec h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.across-sec .more {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.across-sec a {
+    text-decoration: none;
+    background-color: #091242;
+    color: #fff;
+    padding: 8px 15px;
+
+}
+
+.across-sec .contu .boxes {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.across-sec .contu .boxes .box {
+    position: relative;
+    width: 20%;
+    margin: 0 20px 0 0 ;
+}
+
+.across-sec .contu .boxes .box img {
+    width:100% ;
+    height:100% ;
+
+}
+.across-sec .contu .boxes .box .box-det{
+    position: absolute;
+    margin: 270px 0 0 20px;
+    
+}
+
+.across-sec .contu .boxes .box .box-det h4 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.across-sec .contu .boxes .box .box-det p {
+    color: #c08921;
+    width: 250px;
+    font-size: 17px;
+
+}
+
+
+/* end across Css   */
+
+
+/* start team */
+.team-sec {
+    margin-top: 100px;
+}
+
+.team-sec .title-sec {
+    text-align: center;
+}
+
+.team-sec .title-sec p {
+    background-color: #f3f3f3;
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid #ffd859;
+}
+
+.team-sec .title-sec h1 {
+    margin-bottom: 20px;
+
+}
+
+.team-sec .boxes {
+    display: flex;
+
+}
+
+@media (max-width: 1199px) {
+    .team-sec .boxes {
+        flex-direction: column;
+    }
+
+    .team-sec .boxes .box {
+        margin-left: 0 !important;
+        margin-bottom: 20px;
+        
+    }
+}
+
+.team-sec .boxes .box {
+    flex: 1;
+    margin: 10px 20px 90px 20px;
+    background-color: #1c1f35;
+    position: relative;
+}
+
+.team-sec .boxes .box img {
+    width: 100%;
+    height: 270px;
+
+}
+
+.team-sec .boxes .box h3 {
+    color: #ffffff;
+    margin: 20px 0 5px 20px;
+
+}
+
+.team-sec .boxes .box p {
+    color: #7f818d;
+    margin: 5px 0 15px 20px;
+    font-size: 14px;
+}
+
+.team-sec .boxes .box .custome-span {
+    position: absolute;
+    background-color: #ffc83f;
+    font-size: 14px;
+    margin: 260px 0 0 0;
+}
+
+.team-sec .boxes .box ul {
+    list-style-type: none;
+}
+
+.team-sec .boxes .box ul li {
+    display: inline-block;
+    padding: 4px 8px ;
+
+}
+.team-sec .boxes .box ul li i{
+    color: #1c1f35;
+}
+
+
+/* end team */
+
+
+
+/* start why choose Css */
+.whychoose-sec {
+    display: flex;
+}
+
+.whychoose-sec .image {
+    background-color: #091242;
+    flex: 1;
+}
+
+.whychoose-sec .choose {
+    background-color: #f4f4f4;
+    flex: 1;
+}
+
+.whychoose-sec .choose .opportunity h6 {
+    margin: 100px 0 15px 130px;
+    background-color: #eeeeee;
+    display: inline-block;
+    padding: 0 10px;
+    border-left: 3px solid #ffd859;
+}
+
+.whychoose-sec .choose .opportunity h1 {
+    margin: 0 0 15px 130px;
+    font-weight: bold;
+}
+
+.whychoose-sec .choose .opportunity p {
+    margin: 0 0 50px 130px;
+    color: #666c89;
+    font-size: 12px;
+}
+
+@media (min-width: 1199px) {
+
+    .whychoose-sec .choose .opportunity h1 {
+        width: 300px;
+    }
+
+    .whychoose-sec .choose .opportunity p {
+        width: 300px;
+    }
+}
+
+.whychoose-sec .choose .de1 {
+    width: 600px;
+    display: flex;
+}
+
+.whychoose-sec .choose .de1 .det1 {
+    flex: 1;
+    margin-left: 130px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.whychoose-sec .choose .de1 .det1 .log {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffc238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.whychoose-sec .choose .de2 {
+    width: 600px;
+    display: flex;
+}
+
+.whychoose-sec .choose .de2 .det1 {
+    flex: 1;
+    margin-left: 130px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.whychoose-sec .choose .de2 .det1 .log {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffc238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.whychoose-sec .choose .de3 {
+    width: 600px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.whychoose-sec .choose .de3 .det1 {
+    flex: 1;
+    margin-left: 130px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.whychoose-sec .choose .de3 .det1 .log {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffc238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+
+
+/* start why choose Css */
+
+
+/* Start footer Css  */
+.footer-sec {
+    margin-top: 20px;
+    background-color: #091242;
+    padding: 18px 0;
+}
+
+.footer-sec .Copyright {
+    float: left;
+}
+
+.footer-sec .Copyright p {
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer-sec .forms {
+    float: right;
+}
+
+.footer-sec .forms ul {
+    list-style-type: none;
+
+}
+
+.footer-sec .forms ul li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.footer-sec .forms ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #363e67;
+    margin-left: 20px;
+}
+
+/* End footer Css  */
